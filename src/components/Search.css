@@ -1,0 +1,32 @@
+.form {
+    display: flex ;
+    justify-content: center;
+    
+}
+
+.searchbox { 
+    position: relative;
+}
+
+.buscar {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    height: 100% ;
+}
+
+.searchinput{
+    border-radius: 10px;
+    height: 30 px;
+    width: 200px;
+    padding: 5px 50px 5px 10px;
+    border: 1px solid white;
+}
+
+.searchinput:focus{
+    border: 1px solid rgb(240, 150, 150);
+    box-shadow: 0 0 5px rgb(182, 43, 66);
+}

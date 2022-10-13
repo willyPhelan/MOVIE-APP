@@ -1,0 +1,36 @@
+.detail { 
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.movieimg{
+    border-radius: 15px;
+    height: auto;
+    height: 80%;
+    max-width: 400px;
+}
+
+.desc{
+    font-size: 1.5rem;
+  
+}
+
+.st{
+    color: rgba(255, 0, 0, 0.719)
+}
+
+
+
+.img{
+    color: aliceblue ;
+    max-width: 400px;
+    margin: 15px;}
+
+.loading { 
+    color: aliceblue;
+}
+

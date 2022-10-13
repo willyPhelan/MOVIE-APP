@@ -1,0 +1,11 @@
+.list{
+    color: aliceblue;
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, 230px ); /*Pongo este modo junsto display grid y se crean columnas que se autocompletan con un ancho determinado CON ESTO TAMBIEN TENGO DISEÑO RESPONSIVE*/
+    gap: 40px ;
+    padding: 40px; /*separacion del contenido con los bordes de afuera*/
+    justify-content: center ; /* centra el contenido */
+}
+.li{
+    color: alicebluse;
+}

@@ -1,0 +1,26 @@
+.movie { 
+    list-style: none;
+    
+}
+
+.movie:hover{
+    opacity: 0.9;
+}
+
+.img{
+    border-radius: 10px;
+    width: 230px;
+    height: 345px;
+
+}
+
+.movietitle{
+    text-align: center;
+}
+
+@media(max-widht: 560px) {
+    .img{
+        width: 90px ;
+        height: auto;
+    }
+}
